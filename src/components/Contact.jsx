@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <div
       ref={Contact_container}
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse px-10 gap-10 overflow-hidden font-comfortaa`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse lg:px-10 px-3 gap-10 overflow-hidden font-comfortaa`}
     >
       <form className="formContainer flex flex-col m-auto p-10 rounded-3xl border-2 border-tertiary  " onSubmit={handleOnSubmit}>
         <p className="text-2xl text-center">Please, contact me as soon as you can!</p>
@@ -85,7 +85,7 @@ const Contact = () => {
             </ul>
             <ul>
               <li className="connect">
-                <a href="http://www.instagram.com/reezyee" className="links" target="_blank">
+                <a href="http://www.linkedin.com/in/reza-sapitra-592178314/" className="links" target="_blank">
                   <span>LINKEDIN</span>
                 </a>
               </li>
