@@ -41,12 +41,12 @@ const App = () => {
             <Navbar />
             <Hero />
           </div>
+          <div className="relative z-0">
           <About />
           {/* <Experience /> */}
           <Tech className={`${styles.paddingY} mt-20`} />
           <Works />
           {/* <Feedbacks /> */}
-          <div className="relative z-0">
             <Contact />
             <StarsCanvas />
           </div>
