@@ -93,9 +93,9 @@ const Contact = () => {
           </div>
         </div>
       </form>
-      <div className="Earth_plane">
+{/*       <div className="Earth_plane">
             <EarthCanvas/>
-      </div>
+      </div> */}
     </div>
   );
 };
