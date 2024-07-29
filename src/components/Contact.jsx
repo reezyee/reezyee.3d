@@ -90,10 +90,12 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
-            <EarthCanvas/>
           </div>
         </div>
       </form>
+      <div className="Earth_plane">
+            <EarthCanvas/>
+      </div>
     </div>
   );
 };
